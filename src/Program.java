@@ -6,8 +6,10 @@ public class Program {
 		Student student1 = new Student("Hans");
 		Student student2 = new Student("Kurt");
 		
-//		student1 = null;
-//		student2 = null;
+		// Here you can do something with the objects
+		
+		student1 = null;
+		student2 = null;
 		
 		System.gc();
 		
